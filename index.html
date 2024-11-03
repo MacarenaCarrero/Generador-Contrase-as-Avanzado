@@ -7,6 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="password" id="password"></div>
+        <p class="length"  id="lengthPass">LENGTH:</p>
+        <div class="box2" id="box2"  >
+            <p class="text">4</p>
+            <input class="range" id="range" type="range" min="4" max="32" step="1" value="4">
+            <p class="text">32</p>
+        </div>
+        <div class="box3" id="box3" >
+            <p class="text" >Include Uppercase</p>
+            <input id="checkbox1" type="checkbox">
+        </div>
+        <div class="box4" id="box4">
+            <p class="text">Include Lowercase</p>
+            <input id="checkbox2" type="checkbox">
+        </div>
+        <div class="box5" id="box5" >
+            <p class="text">Include Numbers</p>
+            <input id="checkbox3" type="checkbox">
+        </div>
+        <div class="box6" id="box6">
+          <p class="text">Include Symbols</p>
+            <input id="checkbox4" type="checkbox">
+        </div>
+        <div class="box7" id="box7">
+            <button disabled id="generatePassword">GeneratePassword </button>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
