@@ -11,6 +11,8 @@ const passContentSymbolsElement = " .,/*@;:&%()·/$-><= "
 const lengthPassElement = document.getElementById ("lengthPass")
 const passwordElement = document.getElementById("password")
 
+let newPassword=""
+
 const checkboxInfo = event => {
     if(uppercaseElement.checked){
         generatePasswordElement.disabled= false
